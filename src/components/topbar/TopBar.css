@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata:opsz@7..72&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Literata', serif;
+}
+.topBar{
+    margin: 20px;
+    display: flex;
+    gap: 750px;
+    padding-left: 20px;
+}
+.topBar .p{
+    font-size: 40px;
+    font-weight: 100px;
+}
+.topBar button{
+  width: 270px;
+  height: 50px;
+  padding-right:90px ;
+  display: flex;
+  gap: 90px;
+  padding: 12px;
+}
