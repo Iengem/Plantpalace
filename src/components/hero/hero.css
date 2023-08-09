@@ -41,4 +41,10 @@
 .hero .right .imgContainer{
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
 }
+.hero  .imgContainer .imgDescription{
+    display: flex;
+    gap: 110px;
+}
+

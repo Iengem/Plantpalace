@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Literata', serif;
+}
+.preFooter{
+    position:relative;
+    top: 5650px;
+}
+.preFooter .preFooterHeading{
+    font-size: 50px;
+    font-weight: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.preFooter .txtContContainer{
+    padding: 120px;
+    padding-top: 50px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+
+}
+.preFooter .txtContContainer img{
+    height: 250px;
+    width: 250px;
+
+}
+.preFooter .txtContContainer .txtContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.preFooter .txtContContainer .txtContainer h5{
+    font-size: 20px;
+    padding-top: 30px;
+}
+.preFooter .txtContContainer .txtContainer p{
+    font-size: 14px;
+    padding-top: 20px;
+}
+.preFooter2 .txtContContainer{
+    padding: 120px;
+    padding-top: 0px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+
+}
+.preFooter2 .txtContContainer img{
+    height: 250px;
+    width: 250px;
+
+}
+.preFooter2 .txtContContainer .txtContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.preFooter2 .txtContContainer .txtContainer h5{
+    font-size: 20px;
+    padding-top: 30px;
+}
+.preFooter2 .txtContContainer .txtContainer p{
+    font-size: 14px;
+    padding-top: 20px;
+}
+.preFooter2{
+    position:relative;
+    top: 5650px;
+}
+.preFooter2 .preFooterHeading2{
+    font-size: 40px;
+    font-weight: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
