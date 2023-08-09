@@ -4,10 +4,16 @@
     box-sizing: border-box;
     font-family: 'Literata', serif;
 }
-.preFooter{
+/* .preFooter{
     position:relative;
     top: 5650px;
-}
+} */
+
+/* .preFooter{
+    position: relative;
+    bottom: 0;
+} */
+
 .preFooter .preFooterHeading{
     font-size: 50px;
     font-weight: 100px;
@@ -68,10 +74,10 @@
     font-size: 14px;
     padding-top: 20px;
 }
-.preFooter2{
+/* .preFooter2{
     position:relative;
     top: 5650px;
-}
+} */
 .preFooter2 .preFooterHeading2{
     font-size: 40px;
     font-weight: 100px;
