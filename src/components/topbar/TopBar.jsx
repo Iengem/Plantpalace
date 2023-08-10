@@ -7,7 +7,8 @@ const TopBar = () => {
         <div className="topBar">
         <p className="p">Shop All Plants</p>
         <button>
-          <p>SORT BY FEATURED</p>
+          <p className="fir">SORT BY FEATURED</p>
+          <p className="sec">Sort/Filter</p>
           <div>
             <AiFillCaretRight />
           </div>
