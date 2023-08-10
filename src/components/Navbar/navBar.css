@@ -1,32 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,400;10..48,500;10..48,600;10..48,700;10..48,800&display=swap');
-nav{
-    display: flex;
-    flex-direction: column;
-}
-.notifier{
-    background-color: rgb(246,207,178);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 7vh;
-}
-.notifier .plantLink{
-    color: black;
-}
 .logo{
     font-family: 'Borel', cursive;
     font-size: 30px;
     padding-left: 10px;
     padding-top: 5px;
 }
-.navBar{
+nav{
     background-color: rgb(252,249,243);
     padding-top: 10px;
     padding-left: 20px;
-    position: sticky;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
     height: 10vh;
-    top: 0px;
+    width: 100%;
     display: grid;
     grid-template-columns: 13% 73% 10%;
     align-items: center;
@@ -37,23 +23,22 @@ nav{
     align-items: center;
     gap: 20px;
     width: 100%;
-    padding-bottom: 17px;
+    padding-bottom: 10px;
 }
 .Links .Link{
     color: black;
     text-decoration: none;
-    font-family: 'Bricolage Grotesque', sans-serif;
     position: relative;
+    font-family: 'Borel', cursive;
 }
 .Links .Link::before{
-    color: black;
     content: '';
     background-color: black;
     height: 0px;
     width: 100%;
     position: absolute;
-    bottom: -5px;
-    transition: .3s ease-out;
+    bottom: 0px;
+    transition: .2s ease-out;
 }
 .Links .Link:hover::before{
     height: 1px;
