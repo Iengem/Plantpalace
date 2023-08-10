@@ -4,17 +4,10 @@
     box-sizing: border-box;
     font-family: 'Literata', serif;
 }
-/* .preFooter{
-    position:relative;
-    top: -500px;
-} */
 
-/* .preFooter{
-    position: relative;
-    bottom: 0;
-} */
 
 .preFooter .preFooterHeading{
+    margin: 40px auto;
     font-size: 50px;
     font-weight: 100px;
     display: flex;
@@ -23,18 +16,25 @@
   
 }
 .preFooter .txtContContainer{
-    padding: 120px;
-    padding-top: 50px;
-   display: grid;
-   grid-template-columns: repeat(3,1fr);
+    /* padding: 120px;
+    padding-top: 50px; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
 
 }
 .preFooter .txtContContainer img{
-    height: 250px;
-    width: 250px;
+    height: 100%;
+    width: 100%;
+    max-height: 250px;
+    min-height: 200px;
+    max-width: 250px;
+    min-width: 200px;
 
 }
 .preFooter .txtContContainer .txtContainer{
+    margin: auto 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,25 +42,31 @@
 }
 .preFooter .txtContContainer .txtContainer h5{
     font-size: 20px;
-    padding-top: 30px;
+    /* padding-top: 30px; */
 }
 .preFooter .txtContContainer .txtContainer p{
     font-size: 14px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
+
+.preFooter2 {
+    margin: 40px auto;
+}
+
 .preFooter2 .txtContContainer{
-    padding: 120px;
-    padding-top: 0px;
+    /* padding: 120px;
+    padding-top: 0px; */
    display: grid;
    grid-template-columns: repeat(3,1fr);
 
 }
 .preFooter2 .txtContContainer img{
     height: 250px;
-    width: 250px;
+    width: 100%;
 
 }
 .preFooter2 .txtContContainer .txtContainer{
+    margin: auto 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,11 +74,11 @@
 }
 .preFooter2 .txtContContainer .txtContainer h5{
     font-size: 20px;
-    padding-top: 30px;
+    /* padding-top: 30px; */
 }
 .preFooter2 .txtContContainer .txtContainer p{
     font-size: 14px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 /* .preFooter2{
     position:relative;
@@ -84,4 +90,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width:790px) {
+    .preFooter .txtContContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .preFooter2 .txtContContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 }
