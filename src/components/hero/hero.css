@@ -1,9 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Literata', serif;
-}
 .hero{
     display: flex;
     width: 85%;
