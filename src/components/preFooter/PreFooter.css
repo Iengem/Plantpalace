@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -6,23 +6,25 @@
 }
 
 
-.preFooter .preFooterHeading{
+.preFooter .preFooterHeading {
     margin: 40px auto;
     font-size: 50px;
     font-weight: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-  
+
 }
-.preFooter .txtContContainer{
+
+.preFooter .txtContContainer {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 
 }
-.preFooter .txtContContainer img{
+
+.preFooter .txtContContainer img {
     height: 100%;
     width: 100%;
     max-height: 250px;
@@ -31,18 +33,25 @@
     min-width: 200px;
 
 }
-.preFooter .txtContContainer .txtContainer{
+
+.preFooter .txtContContainer .txtContainer {
     margin: auto 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.preFooter .txtContContainer .txtContainer h5{
-    font-size: 20px;
-    /* padding-top: 30px; */
+
+.preFooter .txtContContainer .txtContainer div {
+    margin: 40px auto;
 }
-.preFooter .txtContContainer .txtContainer p{
+
+.preFooter .txtContContainer .txtContainer h5 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.preFooter .txtContContainer .txtContainer p {
     font-size: 14px;
     text-align: center;
     /* padding-top: 20px; */
@@ -52,38 +61,42 @@
     margin: 40px auto;
 }
 
-.preFooter2 .txtContContainer{
-    /* padding: 120px;
-    padding-top: 0px; */
-   display: grid;
-   grid-template-columns: repeat(3,1fr);
+.preFooter2 .txtContContainer {
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 
 }
-.preFooter2 .txtContContainer img{
+
+.preFooter2 .txtContContainer img {
     height: 250px;
     width: 100%;
 
 }
-.preFooter2 .txtContContainer .txtContainer{
+
+/* .preFooter2 .txtContContainer .txtContainer {
     margin: auto 20px;
+    width: 95%;
+    height: 140%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.preFooter2 .txtContContainer .txtContainer h5{
-    font-size: 20px;
-    /* padding-top: 30px; */
-}
-.preFooter2 .txtContContainer .txtContainer p{
-    font-size: 14px;
-    /* padding-top: 20px; */
-}
-/* .preFooter2{
-    position:relative;
-    top: 5650px;
+    border: 1px solid black;
+    border-radius: 30px;
 } */
-.preFooter2 .preFooterHeading2{
+
+.preFooter2 .txtContContainer .txtContainer h5 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.preFooter2 .txtContContainer .txtContainer p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.preFooter2 .preFooterHeading2 {
     font-size: 40px;
     font-weight: 100px;
     display: flex;
@@ -92,13 +105,13 @@
 }
 
 @media screen and (max-width:790px) {
-    .preFooter .txtContContainer{
+    .preFooter .txtContContainer {
         display: flex;
         flex-direction: column;
         gap: 20px;
     }
 
-    .preFooter2 .txtContContainer{
+    .preFooter2 .txtContContainer {
         display: flex;
         flex-direction: column;
         gap: 20px;
