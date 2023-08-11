@@ -42,7 +42,7 @@
     text-align: center;
     font-weight: 300;
 }
-.shopPlants:hover{
+.shopPlants:hover, .giftGuide:hover{
     transform: scale(1.05);
     transition: .3s ease-in-out;
 }
@@ -106,7 +106,7 @@
     flex-direction: column;
     gap: 25px;
     padding-bottom: 20px;
-    border-bottom: 3px solid lightblue;
+    border-bottom: 3px solid rgba(219, 216, 216, 0.596);
 }
 .Finder h1{
     font-weight: 400;
@@ -143,10 +143,11 @@
     display: flex;
     gap: 20px;
     align-items: flex-start;
-    padding-top: 70px;
+    padding-top: 90px;
     height: 90vh;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 50px;
 }
 .Gifts img{
     height: 100%;
@@ -168,6 +169,7 @@
     background-color: black;
     text-decoration: none;
 }
+
 .giftText p{
     width: 80%;
 }
@@ -184,4 +186,7 @@
     flex-direction: column;
     gap: 20px;
     width: 30%;
+}
+.LearnText h1{
+    font-weight: 500;
 }

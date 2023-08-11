@@ -2,7 +2,6 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import './homePage.css';
 import Navbar from '../Navbar/navBar';
-import heroImage from '../images/heroImage.jpg';
 import { firstSlide } from './Firstslide';
 import pet from '../images/pet.webp';
 import maint from '../images/maintenance.webp';
@@ -73,14 +72,14 @@ const homePage = () =>{
                         <div className='LearnText'>
                             <h1>Features of Plants</h1>
                             <p>Learn more about the plants and what you need to be a responsible plant owner</p>
-                            <Link className='giftGuide'>Learn more</Link>
+                            <Link to='/Learn' className='giftGuide'>Learn more</Link>
                         </div>
                     </div>
                     <div className='Gifts'>
                         <div className='giftText'>
                             <h1>Housewarming Gifts for Plant Lovers</h1>
                             <p>Whether your loved one just bought their first home or moved into a brand-new apartment, congratulations are certainly in order! Here are our picks for the best housewarming gifts for every plant lover in your life.</p>
-                            <Link className='giftGuide'>SEE GUIFT GUIDE</Link>
+                            <Link to='/Gift' className='giftGuide'>SEE GUIFT GUIDE</Link>
                         </div>
                         <img src={giftImage} alt="Picture" />
                     </div>
