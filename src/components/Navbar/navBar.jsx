@@ -8,7 +8,9 @@ const navBar = () =>{
     return(
         <nav>
             <h1 className='logo'>PlantPalace</h1>
+
             {/* List of links to other pages */}
+
             <div className='Links'>
                 <Link className='Link' to='plant'>PLANTS</Link>
                 <Link className='Link' to='/careTools'>CARE TOOLS</Link>
@@ -17,7 +19,7 @@ const navBar = () =>{
                 <Link className='Link'to='/corporateGifts'>CORPORATE GIFTS</Link>
             </div>
             <div className='client'>
-                <Link className='clientIcon'><GoPerson /></Link>
+                <Link to='' className='clientIcon'><GoPerson /></Link>
                 <Link className='clientIcon'><BsCart/></Link>
             </div>
         </nav>

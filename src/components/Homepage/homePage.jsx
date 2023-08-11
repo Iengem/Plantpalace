@@ -4,6 +4,10 @@ import './homePage.css';
 import Navbar from '../Navbar/navBar';
 import heroImage from '../images/heroImage.jpg';
 import { firstSlide } from './Firstslide';
+import pet from '../images/pet.webp';
+import maint from '../images/maintenance.webp';
+import cacti from '../images/cacti.webp';
+import gift from '../images/gifts.webp';
 
 const homePage = () =>{
     return(
@@ -40,9 +44,26 @@ const homePage = () =>{
                           })}
                         </div>
                     </div>
-                    <div className='WaysToFind'>
+                    <div className='Finder'>
                         <h1>More Ways to Find Your Perfect Plant</h1>
-                        
+                        <div className='FinderContainer'>
+                            <Link className='FinderCards'>
+                                <img src={pet} alt="pic" />
+                                <p>Pet friendly</p>
+                            </Link>
+                            <Link className='FinderCards'>
+                                <img src={maint} alt="pic" />
+                                <p>Maintenance</p>
+                            </Link>
+                            <Link className='FinderCards'>
+                                <img src={cacti} alt="pic" />
+                                <p>Cacti & Succulents</p>
+                            </Link>
+                            <Link className='FinderCards'>
+                                <img src={gift} alt="pic" />
+                                <p>Gifts</p>
+                            </Link>
+                        </div>
                     </div>
                 
                 </div>

@@ -2,6 +2,9 @@
     height: max-content;
     width: 100%;
 }
+
+/* code for the hero */
+
 .hero{
     height: 90vh;
     width: 100%;
@@ -41,6 +44,7 @@
 }
 
 /* Code for the slider */
+
 .slider{
     max-width: 100vw;
     overflow-x: hidden;
@@ -49,8 +53,9 @@
 .contentSlide{
     display: flex;
     width: 90vw;
-    gap: 2%;
+    gap: 3%;
     overflow-x: scroll;
+    padding-bottom: 10px;
 }
 .slideItem{
     display: flex;
@@ -74,20 +79,59 @@
 .slideText p{
     color: black;
     font-size: 16px;
+    font-weight: 500;
 }
 .section1Header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 30px;
+    padding-top: 25px;
     padding-left: 5%;
     padding-right: 5%;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 .section1Header h1{
-    font-weight: 400;
+    font-weight: 500;
     font-size: 28px;
 }
 .shopLink{
+    color: black;
+}
+.Finder{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border-bottom: 3px solid ;
+}
+.Finder h1{
+    font-weight: 400;
+    font-size: 28px;
+    padding-left: 5%;
+    font-weight: 500;
+}
+.FinderContainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.FinderCards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+}
+.FinderCards img{
+    width: 100%;
+}
+.FinderCards p{
+    font-size: 18px;
+    font-weight: 500;
     color: black;
 }
