@@ -16,6 +16,7 @@ nav{
     display: grid;
     grid-template-columns: 13% 73% 10%;
     align-items: center;
+    border-bottom: 2px solid rgba(234, 220, 255, 0.747);
 }
 .Links{
     display: flex;

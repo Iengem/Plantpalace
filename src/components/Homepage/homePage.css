@@ -39,3 +39,55 @@
     text-align: center;
     font-weight: 300;
 }
+
+/* Code for the slider */
+.slider{
+    max-width: 100vw;
+    overflow-x: hidden;
+    padding-left: 5%;
+}
+.contentSlide{
+    display: flex;
+    width: 90vw;
+    gap: 2%;
+    overflow-x: scroll;
+}
+.slideItem{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.slideImage{
+    width: 100%;
+    height: 100%;
+}
+.slideText{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slideText h1{
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+}
+.slideText p{
+    color: black;
+    font-size: 16px;
+}
+.section1Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 20px;
+}
+.section1Header h1{
+    font-weight: 400;
+    font-size: 28px;
+}
+.shopLink{
+    color: black;
+}
