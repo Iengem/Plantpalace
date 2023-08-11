@@ -16,8 +16,6 @@
   
 }
 .preFooter .txtContContainer{
-    /* padding: 120px;
-    padding-top: 50px; */
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -46,6 +44,7 @@
 }
 .preFooter .txtContContainer .txtContainer p{
     font-size: 14px;
+    text-align: center;
     /* padding-top: 20px; */
 }
 

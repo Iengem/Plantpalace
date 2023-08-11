@@ -6,31 +6,31 @@ const Hero = () => {
     return (
         <div className="hero">
             <div className="left">
-                <div className="heroContent">
-                    <p>INDOOR LIGHT</p>
-                    <AiOutlineDown />
-                </div>
-                <div className="heroContent1">
-                    <p>INDOOR LIGHT</p>
-                    <AiOutlineDown />
-                </div>
-                <div className="heroContent1">
-                    <p>INDOOR LIGHT</p>
-                    <AiOutlineDown />
-                </div>
-                <div className="heroContent1">
-                    <p>INDOOR LIGHT</p>
-                    <AiOutlineDown />
-                </div>
-                <div className="heroContent1">
-                    <p>INDOOR LIGHT</p>
-                    <AiOutlineDown />
-                </div>
-                <div className="heroContent1">
-                    <p>INDOOR LIGHT</p>
-                    <AiOutlineDown />
-                </div>
-                <button>CLEAR FILTERS</button>
+                    <div className="heroContent">
+                        <p>INDOOR LIGHT</p>
+                        <AiOutlineDown />
+                    </div>
+                    <div className="heroContent1">
+                        <p>INDOOR LIGHT</p>
+                        <AiOutlineDown />
+                    </div>
+                    <div className="heroContent1">
+                        <p>INDOOR LIGHT</p>
+                        <AiOutlineDown />
+                    </div>
+                    <div className="heroContent1">
+                        <p>INDOOR LIGHT</p>
+                        <AiOutlineDown />
+                    </div>
+                    <div className="heroContent1">
+                        <p>INDOOR LIGHT</p>
+                        <AiOutlineDown />
+                    </div>
+                    <div className="heroContent1">
+                        <p>INDOOR LIGHT</p>
+                        <AiOutlineDown />
+                    </div>
+                    <button>CLEAR FILTERS</button>
             </div>
             <div className="right">
                 <div className="imgContainer">
@@ -458,7 +458,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-            
+
 
         </div>
     );
