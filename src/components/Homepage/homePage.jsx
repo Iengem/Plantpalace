@@ -14,7 +14,7 @@ const homePage = () =>{
                     <img className='heroImage' src={heroImage} alt='heropic'/>
                     <div className='heroText'>
                         <h1>Botany at your Fingertips</h1>
-                        <Link className='shopPlants' to='/plant'>Buy Plants</Link>
+                        <Link className='shopPlants' to='/plants'>Buy Plants</Link>
                     </div>
                 </div>
                 <div className='section1'>

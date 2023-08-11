@@ -9,6 +9,7 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path='/' element={<App />}/>
+      <Route path="/plants" element= { <Plants/>}></Route>
       
     </Routes>
   </BrowserRouter>

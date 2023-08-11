@@ -10,7 +10,7 @@ const navBar = () =>{
             <h1 className='logo'>PlantPalace</h1>
             {/* List of links to other pages */}
             <div className='Links'>
-                <Link className='Link' to='plant'>PLANTS</Link>
+                <Link className='Link' to='/Plants'>PLANTS</Link>
                 <Link className='Link' to='/careTools'>CARE TOOLS</Link>
                 <Link className='Link' to='/Gifts'>GIFTS</Link>
                 <Link className='Link' to='/Learn'>LEARN</Link>
