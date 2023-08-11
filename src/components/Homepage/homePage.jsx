@@ -8,6 +8,8 @@ import pet from '../images/pet.webp';
 import maint from '../images/maintenance.webp';
 import cacti from '../images/cacti.webp';
 import gift from '../images/gifts.webp';
+import giftImage from '../images/gift.webp';
+import Footer from '../Footer/Footer';
 
 const homePage = () =>{
     return(
@@ -45,7 +47,7 @@ const homePage = () =>{
                         </div>
                     </div>
                     <div className='Finder'>
-                        <h1>More Ways to Find Your Perfect Plant</h1>
+                        <h1>Plant Suggestions Based on Your Needs</h1>
                         <div className='FinderContainer'>
                             <Link className='FinderCards'>
                                 <img src={pet} alt="pic" />
@@ -65,7 +67,15 @@ const homePage = () =>{
                             </Link>
                         </div>
                     </div>
-                
+                    <div className='Gifts'>
+                        <div className='giftText'>
+                            <h1>Housewarming Gifts for Plant Lovers</h1>
+                            <p>Whether your loved one just bought their first home or moved into a brand-new apartment, congratulations are certainly in order! Here are our picks for the best housewarming gifts for every plant lover in your life.</p>
+                            <Link className='giftGuide'>SEE GUIFT GUIDE</Link>
+                        </div>
+                        <img src={giftImage} alt="Picture" />
+                    </div>
+                    <Footer />
                 </div>
             </div>
         </div>        

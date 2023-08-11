@@ -102,7 +102,8 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
-    border-bottom: 3px solid ;
+    padding-bottom: 20px;
+    border-bottom: 3px solid lightblue;
 }
 .Finder h1{
     font-weight: 400;
@@ -134,4 +135,35 @@
     font-size: 18px;
     font-weight: 500;
     color: black;
+}
+.Gifts{
+    display: flex;
+    align-items: flex-start;
+    padding-top: 70px;
+    height: 90vh;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.Gifts img{
+    height: 100%;
+}
+.giftText{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.giftText h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+.giftGuide{
+    padding: 10px 30px;
+    color: white;
+    width: max-content;
+    border-radius: 50px;
+    background-color: black;
+    text-decoration: none;
+}
+.giftText p{
+    width: 80%;
 }

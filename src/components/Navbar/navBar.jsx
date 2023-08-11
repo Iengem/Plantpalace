@@ -16,7 +16,7 @@ const navBar = () =>{
                 <Link className='Link' to='/careTools'>CARE TOOLS</Link>
                 <Link className='Link' to='/Gifts'>GIFTS</Link>
                 <Link className='Link' to='/Learn'>LEARN</Link>
-                <Link className='Link'to='/corporateGifts'>CORPORATE GIFTS</Link>
+            
             </div>
             <div className='client'>
                 <Link to='' className='clientIcon'><GoPerson /></Link>

@@ -1,11 +1,4 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Literata', serif;
-}
 footer{
-    background-color: white;
     height:500px;
     display: flex;
     gap: 90px;
@@ -21,9 +14,7 @@ footer ul{
 footer ul li{
     font-size: 12px;
 }
-footer .footCont {
 
-}
 footer .footCont .footContHeading{
     font-size: 17px;
     font-weight: 500;
