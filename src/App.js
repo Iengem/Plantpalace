@@ -1,17 +1,16 @@
 import "./App.css";
 import Homepage from "./components/Homepage/homePage";
-import Plants from "../src/components/Plant/Plant";
-import { Routes,Route, } from "react-router";
+import { Routes,Route, Router } from "react-router";
+import Plants from "./components/Plants/Plants";
 
 function App() {
   return (
     <div className="App">
-    <Homepage/>
-    <Plants/>
-   
-      
-   
-      </div>
+      <Routes>
+        <Route path="/" element = {<Homepage/>}></Route>
+        <Route path="/Plants" element = {<Plants/>}></Route>
+      </Routes>
+    </div>
   );
 }
 

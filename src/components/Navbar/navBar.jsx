@@ -1,10 +1,10 @@
 import React from 'react';
-import './navBar.css';
+import './NavBar.css';
 import { Link } from 'react-router-dom';
 import {GoPerson} from 'react-icons/go';
 import { BsCart } from 'react-icons/bs';
 
-const navBar = () =>{
+const NavBar = () =>{
     return(
         <nav>
             <h1 className='logo'>PlantPalace</h1>
@@ -25,4 +25,4 @@ const navBar = () =>{
 
 }
 
-export default navBar
+export default NavBar;

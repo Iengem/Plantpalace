@@ -1,11 +1,12 @@
-.logo{
-    font-family: 'Borel', cursive;
+.logo {
+    font-family: "Borel", cursive;
     font-size: 30px;
     padding-left: 10px;
     padding-top: 5px;
 }
-nav{
-    background-color: rgb(252,249,243);
+
+nav {
+    background-color: rgb(252, 249, 243);
     padding-top: 10px;
     padding-left: 20px;
     position: fixed;
@@ -18,7 +19,7 @@ nav{
     align-items: center;
     border-bottom: 2px solid rgba(234, 220, 255, 0.747);
 }
-.Links{
+.Links {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,32 +27,37 @@ nav{
     width: 100%;
     padding-bottom: 10px;
 }
-.Links .Link{
+
+.Links .Link {
     color: black;
     text-decoration: none;
     position: relative;
-    font-family: 'Borel', cursive;
+    font-family: "Borel", cursive;
 }
-.Links .Link::before{
-    content: '';
+
+.Links .Link::before {
+    content: "";
     background-color: black;
     height: 0px;
     width: 100%;
     position: absolute;
     bottom: 0px;
-    transition: .2s ease-out;
+    transition: 0.2s ease-out;
 }
-.Links .Link:hover::before{
+
+.Links .Link:hover::before {
     height: 1px;
 }
-.client{
+
+.client {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 20px;
     padding-bottom: 15px;
 }
-.clientIcon{
+
+.clientIcon {
     font-size: 30px;
     color: black;
     font-weight: 100;

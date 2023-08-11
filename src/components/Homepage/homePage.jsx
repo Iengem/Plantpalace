@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import './homePage.css';
-import Navbar from '../Navbar/navBar';
+import Navbar from '../Navbar/NavBar';
 import heroImage from '../images/heroImage.jpg';
 import { firstSlide } from './Firstslide';
 
