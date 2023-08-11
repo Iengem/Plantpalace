@@ -2,10 +2,12 @@ import React from 'react';
 import { AiFillCaretRight } from "react-icons/ai";
 import '../Plant/Plant.css';
 import { AiOutlineDown } from "react-icons/ai";
+import NavBar from '../Navbar/navBar';
 
 const Plant = () => {
     return (
-        <div>
+        <div className='Page'>
+            <NavBar/>
             <div className="topBar">
                 <p className="p">Shop All Plants</p>
                 <button>

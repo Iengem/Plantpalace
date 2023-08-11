@@ -10,15 +10,16 @@ import cacti from '../images/cacti.webp';
 import gift from '../images/gifts.webp';
 import giftImage from '../images/gift.webp';
 import Footer from '../Footer/Footer';
+import Learn from '../images/Learn.jpg';
 
 const homePage = () =>{
     return(
-        <div className='homePage'>
+        <div className='Page'>
             <Navbar/>
             <div className='content'>
-                <div className='hero'>
-                    <img className='heroImage' src={heroImage} alt='heropic'/>
-                    <div className='heroText'>
+                <div className='homePagehero'>
+                    <img className='homePageheroImage' src={Learn} alt='heropic'/>
+                    <div className='homePageheroText'>
                         <h1>Botany at your Fingertips</h1>
                         <Link className='shopPlants' to='/plant'>Buy Plants</Link>
                     </div>
@@ -65,6 +66,14 @@ const homePage = () =>{
                                 <img src={gift} alt="pic" />
                                 <p>Gifts</p>
                             </Link>
+                        </div>
+                    </div>
+                    <div className='Learn'>
+                        <img src={Learn} alt="Picture" />
+                        <div className='LearnText'>
+                            <h1>Features of Plants</h1>
+                            <p>Learn more about the plants and what you need to be a responsible plant owner</p>
+                            <Link className='giftGuide'>Learn more</Link>
                         </div>
                     </div>
                     <div className='Gifts'>

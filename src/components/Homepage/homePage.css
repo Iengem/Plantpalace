@@ -1,40 +1,40 @@
-.homePage{
+.Page{
     height: max-content;
     width: 100%;
+    background-color: rgb(252,249,243); 
 }
-
 /* code for the hero */
 
-.hero{
+.homePagehero{
     height: 90vh;
-    width: 100%;
+    width: 100% ;
     overflow-y: hidden;
-    position: relative;
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
 }
-.heroImage{
+.homePageheroImage{
     position: absolute;
     width: 100%;
-    opacity: 0.85;
 }
-.heroText{
+.homePageheroText{
     z-index: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.heroText h1{
+.homePageheroText h1{
     font-family: 'Borel', cursive;
     font-size: 2.5rem;
     font-weight: 100;
+    color: white;
 }
 .shopPlants{
     padding: 12px 45px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    /* color: white; */
     text-decoration: none;
     border-radius: 50px;
     font-size: 19px;
@@ -42,7 +42,10 @@
     text-align: center;
     font-weight: 300;
 }
-
+.shopPlants:hover{
+    transform: scale(1.05);
+    transition: .3s ease-in-out;
+}
 /* Code for the slider */
 
 .slider{
@@ -98,7 +101,7 @@
     color: black;
 }
 .Finder{
-    padding-top: 40px;
+    padding-top: 70px;
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -138,6 +141,7 @@
 }
 .Gifts{
     display: flex;
+    gap: 20px;
     align-items: flex-start;
     padding-top: 70px;
     height: 90vh;
@@ -166,4 +170,18 @@
 }
 .giftText p{
     width: 80%;
+}
+.Learn{
+    display: flex;
+    height: 90vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 80px;
+    gap: 30px;
+}
+.LearnText{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
 }

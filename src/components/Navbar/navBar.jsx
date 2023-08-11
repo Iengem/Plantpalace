@@ -12,6 +12,7 @@ const navBar = () =>{
             {/* List of links to other pages */}
 
             <div className='Links'>
+                <Link className='Link' to='/'>HOME</Link>
                 <Link className='Link' to='plant'>PLANTS</Link>
                 <Link className='Link' to='/careTools'>CARE TOOLS</Link>
                 <Link className='Link' to='/Gifts'>GIFTS</Link>
