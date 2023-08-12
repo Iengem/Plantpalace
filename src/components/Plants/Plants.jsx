@@ -2,8 +2,7 @@ import React from 'react';
 import NavBar from '../Navbar/navBar';
 import TopBar from '../topbar/TopBar';
 import Hero from '../hero/hero';
-import PreFooter from '../preFooter/PreFooter';
-import Footer from '../Footer/Footer'
+import PreFooter from '../preFooter/preFooter/PreFooter';
 
 const Plants = () => {
     return (
@@ -12,7 +11,6 @@ const Plants = () => {
         <TopBar/>
         <Hero/>
         <PreFooter/>
-        <Footer/>
         </div>
     );
 }

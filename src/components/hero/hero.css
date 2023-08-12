@@ -65,7 +65,7 @@
 
 .hero  .imgContainer .imgDescription{
     display: flex;
-    /* gap: 110px; */
+    justify-content: space-between;
 }
 
 @media screen and (max-width:1370px) {

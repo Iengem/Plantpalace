@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Literata:opsz@7..72&display=swap');
 
 .topBar{
+    padding-top: 80px;
     width: 85%;
     margin: 20px auto;
     display: flex;
