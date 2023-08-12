@@ -1,8 +1,7 @@
 import React from 'react';
 import './navBar.css';
 import { Link } from 'react-router-dom';
-import {GoPerson} from 'react-icons/go';
-import { BsCart } from 'react-icons/bs';
+import { TiShoppingCart } from 'react-icons/ti';
 
 const navBar = () =>{
     return(
@@ -19,8 +18,7 @@ const navBar = () =>{
             
             </div>
             <div className='client'>
-                <Link to='' className='clientIcon'><GoPerson /></Link>
-                <Link className='clientIcon'><BsCart/></Link>
+                <Link className='clientIcon'><TiShoppingCart/></Link>
             </div>
         </nav>
     )

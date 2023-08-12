@@ -3,54 +3,43 @@ import "../Footer/Footer.css";
 
 const Footer = () => {
     return (
-        <div>
-            <footer>
-                <div className="footCont">
-                    <p className="footContHeading">CONTACT INFO</p>
-                    <ul>
-                        <li>ADDRESS <br /> MBM PLAZA, RUMUOMASI,<br /> PORT-HARCOURT </li>
-                        <li>PHONE <br />+234 APTECH</li>
-                        <li>SUPPORT LINK <br />customer-support.plantpalace.com</li>
-                    </ul>
-                </div>
-                <div className="footCont">
-                    <p className="footContHeading">OUR COMPANY</p>
-                    <ul>
-                        <li>About Us</li>
-                        <li>Affiliate Program</li>
-                        <li>Customer Reviews<br />customer-support.plantpalace.com</li>
-                        <li>FAQ's</li>
-                        <li>WholeSale</li>
-                    </ul>
-                </div>
-                <div className="footCont">
-                    <p className="footContHeading">OUR POLICIES</p>
-                    <ul>
-                        <li>Accessibility Statement</li>
-                        <li>Exclusions</li>
-                        <li>Privacy Policies</li>
-                        <li>Product & Guarantee</li>
-                        <li>Terms & Conditions </li>
-                    </ul>
-                </div>
-                <div className="footCont">
-                    <p className="footContHeading">RESOURCES</p>
-                    <ul>
-                        <li>Resources</li>
-                        <li>Our Brands</li>
-                        <li>Planting Guide</li>
-                        <li>Shipping Calendar</li>
-                    </ul>
-                </div>
-
-            </footer>
+        <div className="footer">
+            <div className="footerColumn">
+                <h1>CONTACT INFO</h1>
+                <p>ADDRESS MBM PLAZA, RUMUOMASI PORT-HARCOURT </p>
+                <p>PHONE +234 APTECH</p>
+                <p>SUPPORT LINK customer-support.plantpalace.com</p>
+            </div>
+            <div className="footerColumn">
+                <h1>OUR COMPANY</h1>
+                <p>About Us</p>
+                <p>Affiliate Program</p>
+                <p>Customer Reviews customer-support.plantpalace.com</p>
+                <p>FAQ's</p>
+                <p>WholeSale</p>
+            </div>
+            <div className="footerColumn">
+                <h1>OUR POLICIES</h1>
+                <p>Accessibility Statement</p>
+                <p>Exclusions</p>
+                <p>Privacy Policies</p>
+                <p>Product & Guarantee</p>
+                <p>Terms & Conditions </p>
+            </div>
+            <div className="footerColumn">
+                <h1>RESOURCES</h1>
+                <p>Resources</p>
+                <p>Our Brands</p>
+                <p>Planting Guide</p>
+                <p>Shipping Calendar</p>
+            </div>
             <div className="FooterSub">
-                <div className="FootSubCont1">
-                    <p>© Basic_Coders, Inc 2023</p>
+                <div className="FootSubContainer">
+                    <h1>© Basic_Coders, Inc 2023</h1>
                     <p>All rights Reserved</p>
                 </div>
-                <div className="FootSubCont1">
-                    <p>SUPPORT ID-934567</p>
+                <div className="FootSubContainer">
+                    <h1>SUPPORT ID-934567</h1>
                     <p>All rights Reserved</p>
                 </div>
             </div>
