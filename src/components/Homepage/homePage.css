@@ -8,7 +8,7 @@
 .homePagehero{
     height: 90vh;
     width: 100% ;
-    overflow-y: hidden;
+    overflow: hidden;
     display: flex;
     position: relative;
     justify-content: center;
@@ -16,6 +16,7 @@
 }
 .homePageheroImage{
     position: absolute;
+    height: 110vh;
     width: 100%;
 }
 .homePageheroText{
@@ -58,21 +59,26 @@
     width: 90vw;
     gap: 3%;
     overflow-x: scroll;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 .slideItem{
     display: flex;
     flex-direction: column;
+    align-items: center;
     text-decoration: none;
+    width: 100%;
 }
+
 .slideImage{
     width: 100%;
     height: 100%;
+    position: relative;
 }
 .slideText{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 .slideText h1{
     color: black;
@@ -135,7 +141,7 @@
     width: 100%;
 }
 .FinderCards p{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     color: black;
 }
@@ -174,7 +180,8 @@
     width: 80%;
 }
 .Learn{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     height: 90vh;
     padding-left: 5%;
     padding-right: 5%;
@@ -185,8 +192,33 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 30%;
+    width: 100%;
 }
 .LearnText h1{
     font-weight: 500;
+}
+.Learn img{
+    width: 50vw;
+}   
+
+/* Cart styling */
+
+.cartAdder{
+    position: absolute;
+    padding: 10px 20px;
+    border-radius: 50px;
+    width: 80%;
+    right: 10%;
+    text-align: center;
+    bottom: 50px;
+    background-color: white;
+    color: black;
+    z-index: -1;
+}
+.slideItem:hover .cartAdder{
+    z-index: 1;
+}
+.cartAdder:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
 }

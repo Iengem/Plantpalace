@@ -10,6 +10,8 @@ import gift from '../images/gifts.webp';
 import giftImage from '../images/gift.webp';
 import Footer from '../Footer/Footer';
 import Learn from '../images/Learn.jpg';
+import { adder1 } from './cartFunctionality';
+
 
 const homePage = () =>{
     return(
@@ -30,12 +32,15 @@ const homePage = () =>{
                     </div>
                     <div className='slider'>
                         <div className='contentSlide'>
+
                             {/* Imported the array to be used for the Slider */}
+
                           {firstSlide.map((item, key)=>{
                             return(
                                 <Link className='slideItem'>
                                     <div className='slideImage'>
                                         {item.img}
+                                        <p className='cartAdder' >Add to Cart</p>
                                     </div>
                                     <div className='slideText'>
                                         <h1>{item.name}</h1>
